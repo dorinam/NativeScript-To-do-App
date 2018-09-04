@@ -1,4 +1,4 @@
-# NativeScript JavaScript Template
+# NativeScript JavaScript Productivity App (To-do App)
 
 This template creates a NativeScript Productivity (To-do) app using JavaScript.
 
