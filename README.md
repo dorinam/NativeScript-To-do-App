@@ -1,6 +1,6 @@
 # NativeScript JavaScript Template
 
-This template creates a "Hello, world" NativeScript app using JavaScript.
+This template creates a NativeScript Productivity (To-do) app using JavaScript.
 
 This is the default template, so you can create a new app that uses it with the `--template` option:
 
@@ -23,3 +23,5 @@ tns create my-app-name --template https://github.com/NativeScript/template-hello
 ```
 
 **NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!
+
+Created by Dorina Mihai
