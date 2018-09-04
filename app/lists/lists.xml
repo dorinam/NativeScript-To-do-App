@@ -1,0 +1,16 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Lists">
+            <ActionBar.actionItems>
+                <ActionItem text="New" tap="{{ insert }}" ios.position="right" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+    <ListView items="{{ lists }}" itemTap="navigateToTasks">
+        <ListView.itemTemplate>
+            <StackLayout>
+                <Label text="{{ list_name }}" />
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

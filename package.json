@@ -1,0 +1,30 @@
+{
+    "nativescript": {
+        "id": "org.nativescript.TodoProject",
+        "tns-android": {
+            "version": "4.2.0"
+        },
+        "tns-ios": {
+            "version": "4.2.0"
+        }
+    },
+    "description": "NativeScript Application",
+    "author": "Dorina Mihai",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "repository": "<fill-your-repository-here>",
+    "main": "app-root.xml",
+    "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+    },
+    "dependencies": {
+        "nativescript-sqlite": "^2.2.1",
+        "nativescript-theme-core": "~1.0.4",
+        "tns-core-modules": "~4.2.0"
+    },
+    "readme": "NativeScript Application",
+    "devDependencies": {
+        "lite-server": "^2.4.0"
+    }
+}

@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Tasks">
+            <ActionBar.actionItems>
+                <ActionItem text="New" tap="{{ insert }}" ios.position="right" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+    <ListView items="{{ tasks }}"></ListView>
+</Page>
